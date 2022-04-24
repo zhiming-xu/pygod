@@ -47,9 +47,9 @@ data.y = torch.logical_or(ys, ya).int()
 # `pygod.models.DOMINANT` as an example.
 
 
-from pygod.models import DOMINANT
+from pygod.models import DOMINANT, CONAD
 
-model = DOMINANT()
+model = CONAD()
 
 #######################################################################
 # Training
